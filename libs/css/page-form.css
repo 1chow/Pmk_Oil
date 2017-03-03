@@ -1,0 +1,432 @@
+.alert-success {
+  color: #0dbc78;
+  background-color: #ABF5D8;
+  border-color: #81E6BE;
+}
+.alert-success hr {
+  border-top-color: #81E6BE;
+}
+.alert-success .alert-link {
+  color: #0dbc78;
+  text-decoration: underline;
+}
+.alert-info {
+  color: #08bfed;
+  background-color: #B4ECFA;
+  border-color: #95E2F5;
+}
+.alert-info hr {
+  border-top-color: #95E2F5;
+}
+.alert-info .alert-link {
+  color: #08bfed;
+  text-decoration: underline;
+}
+.alert-warning {
+  color: #ffae00;
+  background-color: #FAEED4;
+  border-color: #F7E4BC;
+}
+.alert-warning hr {
+  border-top-color: #F7E4BC;
+}
+.alert-warning .alert-link {
+  color: #ffae00;
+  text-decoration: underline;
+}
+.alert-danger {
+  color: #cb4b57;
+  background-color: #FAD9DC;
+  border-color: #F5BFC4;
+}
+.alert-danger hr {
+  border-top-color: #F5BFC4;
+}
+.alert-danger .alert-link {
+  color: #cb4b57;
+  text-decoration: underline;
+}
+
+.alert-square {
+  border-radius: 0;
+}
+
+
+/*BORDER ROUNDED*/
+.alert-success.alert-rounded,
+.alert-info.alert-rounded,
+.alert-warning.alert-rounded,
+.alert-danger.alert-rounded {
+  background-color: #fff;
+  border: 2px solid;
+  color: #555;
+}
+.alert-success.alert-rounded {
+  border-color: #0dbc78;
+}
+.alert-info.alert-rounded {
+  border-color: #08bfed;
+}
+.alert-warning.alert-rounded {
+  border-color: #ffae00;
+}
+.alert-danger.alert-rounded {
+  border-color: #cb4b57;
+}
+
+/*LEFT BORDER*/
+.alert-success.alert-left,
+.alert-info.alert-left,
+.alert-warning.alert-left,
+.alert-danger.alert-left {
+  background-color: #fff;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  color: #555;
+}
+.alert-success.alert-left {
+  border-left: 6px solid #0dbc78;
+}
+.alert-info.alert-left {
+  border-left: 6px solid #08bfed;
+}
+.alert-warning.alert-left {
+  border-left: 6px solid #ffae00;
+}
+.alert-danger.alert-left {
+  border-left: 6px solid #cb4b57;
+}
+
+/*BACKGROUND COLOR*/
+.alert-success.alert-bg,
+.alert-info.alert-bg,
+.alert-warning.alert-bg,
+.alert-danger.alert-bg {
+  border-color: transparent;
+  color: #FFF;
+}
+.alert-bg .alert-link {
+  color: #FFF;
+}
+
+.alert-success.alert-bg {
+  background-color: #0dbc78;
+}
+.alert-info.alert-bg {
+  background-color: #08bfed;
+}
+.alert-warning.alert-bg {
+  background-color: #ffae00;
+}
+.alert-danger.alert-bg {
+  background-color: #cb4b57;
+}
+
+/*PROGRESS BAR*/
+.progress {
+  margin-bottom: 15px;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .1);
+          box-shadow: inset 0 0 0 rgba(0, 0, 0, .1);
+}
+.bg-default, .progress-bar {
+  background-color: #eeeeee;
+  color: #555;
+}
+.bg-primary, .progress-bar-primary {
+  background-color: #7a5ba9;
+  color: #FFF;
+}
+.bg-success, .progress-bar-success {
+  background-color: #0dbc78;
+  color: #FFF;
+}
+.bg-info, .progress-bar-info {
+  background-color: #08bfed;
+  color: #FFF;
+}
+.bg-warning, .progress-bar-warning {
+  background-color: #ffae00;
+  color: #FFF;
+}
+.bg-danger, .progress-bar-danger {
+  background-color: #cb4b57;
+  color: #FFF;
+}
+.bg-inverse, .progress-bar-inverse {
+  background-color: #57606f;
+  color: #FFF;
+}
+
+/*PROGRESS BAR SIZE*/
+.progress-rounded {
+    border-radius: 4px;
+}
+.progress-sm {
+    height: 5px;
+}
+.progress-md {
+    height: 10px;
+}
+
+
+
+
+
+.right {
+  float: right;
+}
+.login-avatar {
+    text-align: center;
+}
+.login-avatar img {
+    width: 60px;
+    width: 60px;
+    border: 3px solid #EFEFEF;
+}
+.login-avatar span {
+    display: block;
+    padding-bottom: 10px;
+}
+.head-form {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #EEE;
+    color: #0dbc78;
+    font-weight: 600;
+}
+.icheckbox_flat-green, .iradio_flat-green {
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+
+/*WIZARD FORM*/
+.swMain {
+  position:relative;
+  display:block;
+  margin:0;
+  padding:0;
+  border: 0 solid #CCC;
+  overflow:visible;
+  float:left;
+  width: 100%;
+}
+.swMain .stepContainer {
+  display:block;
+  position: relative;
+  margin: 0;
+  padding:0;    
+  border: 0 solid #CCC;
+  clear:both;
+  height:auto;
+}
+
+.swMain .stepContainer div.content {
+  display:block;
+  position: absolute;  
+  float:left;
+  margin: 0;
+  padding:20px 0;    
+  height:auto;
+  overflow:visible;    
+  z-index:3;
+  width: 100%;
+  clear:both;
+  border-bottom: 2px solid #EEE;
+}
+
+div.actionBar {
+  display:block;
+  position: relative;
+  clear: both;
+  padding: 0;
+  text-align:left;
+  z-index:3;
+  padding-top: 15px;
+  height: 60px;
+}
+
+.swMain ul.anchor {
+  position: relative;
+  display:block;
+  float:left;
+  list-style: none;
+  padding: 0;
+  margin: 0;   
+  clear: both;
+  background: transparent;
+}
+.swMain ul.anchor li{ 
+  position: relative; 
+  display:block;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+/* Anchor Element Style */
+.swMain ul.anchor li a {
+  display: block;
+  position: relative;
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 10px 5px 10px 0;
+  width: 220px;
+  text-decoration: none;
+  z-index: 4;
+}
+/*.swMain ul.anchor li a .stepNumber{
+  position:relative;
+  float:left;
+  width:30px;
+  text-align: center;
+  padding: 0 5px 5px;
+  font: bold 45px Verdana, Arial, Helvetica, sans-serif;
+}*/
+.swMain ul.anchor li a .stepDesc {
+  position: relative;
+  display: block;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+.swMain ul.anchor li a .stepDesc .sp2 {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+/*.swMain ul.anchor li a .stepDesc small{
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}*/
+.swMain ul.anchor li a.selected {
+  color:#0dbc78;
+  border-bottom: 5px solid #0dbc78;
+  cursor:text;
+  transition: all 0.3s ease 0s;
+}
+/*.swMain ul.anchor li a.selected:hover {
+}*/
+
+.swMain ul.anchor li a.done { 
+  position: relative;
+  color:#A3F0D2;  
+  z-index:4;
+  border-bottom: 5px solid #A3F0D2;
+  transition: all 0.3s ease 0s;
+}
+.swMain ul.anchor li a.done .stepDesc .sp2 {
+  color: #CCC;
+  transition: all 0.3s ease 0s;
+}
+.swMain ul.anchor li a.done:hover {
+  color:#0dbc78;
+  border-bottom: 5px solid #0dbc78;
+  transition: all 0.3s ease 0s;
+}
+.swMain ul.anchor li a.done:hover .stepDesc .sp2 {
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+
+.swMain ul.anchor li a.disabled {
+  color: #CCCCCC;
+  cursor:text;
+  border-bottom: 5px solid #EEE; 
+}
+/*.swMain ul.anchor li a.disabled:hover {
+  color:#CCCCCC;  
+  background: #F8F8F8;   
+  border-bottom: 5px solid #CCCCCC;  
+}
+*/
+/*.swMain ul.anchor li a.error {
+  color:#6c6c6c !important;  
+  background: #f08f75 !important;
+  border: 1px solid #fb3500 !important;      
+}
+.swMain ul.anchor li a.error:hover {
+  color:#000 !important;       
+}
+*/
+.swMain .buttonNext,
+.swMain .buttonDisabled,
+.swMain .buttonPrevious,
+.swMain .buttonFinish {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+
+.swMain .buttonNext,
+.swMain .buttonPrevious,
+.swMain .buttonFinish {
+  float: right;
+  text-decoration: none;
+  color:#FFF;
+  outline-style: none;
+  background-color: #0dbc78;
+  border-color: #0dbc78; 
+}
+.swMain .buttonDisabled {
+  color:#CCC  !important;
+  background-color: #EEE !important;
+  border-color: #EEE  !important;
+  cursor:text;    
+}
+.swMain .buttonPrevious {
+  margin-right: 5px; 
+}
+.swMain .buttonFinish {
+  margin-left: 5px;   
+}
+
+/* Form Styles */
+
+.txtBox {
+  border:1px solid #CCCCCC;
+  color:#5A5655;
+  padding:2px;
+  width:430px;
+}
+.txtBox:focus {
+  border:1px solid #EA8511;
+}
+
+.swMain .loader {
+  display:none;
+}
+.swMain .msgBox {
+  display:none;
+}
+.swMain .msgBox .content {
+  padding: 0;
+  float:left;
+}
+.swMain .msgBox .close {
+  display: block;
+}
+.swMain .msgBox .close:hover{
+  color: #EA8511;
+  border: 1px solid #EA8511;  
+}

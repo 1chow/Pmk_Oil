@@ -1,0 +1,39 @@
+body {
+    background-image: url(../../images/bg-signup.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.title-regis {
+    font-size: 32px;
+}
+form.boxsign {
+    width: 450px;
+    margin: 15px auto;
+    background-color: #fff;
+    margin-top: 80px;
+}
+.paddingSign {
+    padding: 20px;
+}
+.title-regis {
+    color: #FFF;
+    text-align: center;
+    margin-top: 50px;
+}
+.headsign {
+    margin-bottom: 15px;
+}
+.headsign span {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+
+.logoSign {
+    background-color: #0dbc78;
+    text-align: center;
+    padding: 20px 10px;
+    color: #FFF;
+    font-size: 32px;
+}

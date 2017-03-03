@@ -1,0 +1,576 @@
+/*ICON*/
+.icon {
+    float: left;
+    font-size: 18px;
+    width: 35px;
+}
+.class {
+    float: left;
+    margin-left: 10px;
+    margin-top: 0;
+    text-align: center;
+}
+.example {
+    margin: 10px 3px;
+    text-align: center;
+    clear: both;
+    display: table;
+}
+.glyphicons {
+    overflow: hidden;
+}
+.glyphicons-list {
+    list-style: none outside none;
+    padding-left: 0;
+}
+.glyphicons li {
+    border: 1px solid #efefef;
+    float: left;
+    height: 115px;
+    line-height: 1.4;
+    padding: 10px;
+    text-align: center;
+    width: 12.5%;
+}
+.glyphicons .glyphicon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.glyphicons .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+.fa-style {
+    padding-bottom: 8px;
+}
+.fa-style a i {
+    font-size: 18px;
+    width: 35px;
+    color: #555;
+    text-align: center;
+}
+.fa-style a {
+    color: #555;
+}
+.nonMargin {
+    margin-top: 0;
+}
+.sampleIcon {
+    text-align: center;
+}
+.sampleIcon i {
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+.icon-circle {
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    width: 35px;
+}
+.icon-square {
+    border-radius: 0;
+    text-align: center;
+    padding: 10px;
+    width: 35px;
+}
+.icon-rounded {
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+    width: 35px;
+}
+.icon-square-border {
+    border-radius: 0;
+    text-align: center;
+    padding: 8px 10px;
+    width: 35px;
+    background-color: #FFF;
+    border: 2px solid;
+}
+.icon-rounded-border {
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 10px;
+    width: 35px;
+    background-color: #FFF;
+    border: 2px solid;
+}
+.icon-circle-border {
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px 10px;
+    width: 35px;
+    background-color: #FFF;
+    border: 2px solid;
+}
+
+
+
+
+/*ICON COLOR*/
+.icon-default {
+    background-color: #eeeeee;
+    color: #333;
+}
+.icon-primary {
+    background-color: #7a5ba9;
+    color: #FFF;
+}
+.icon-success {
+    background-color: #0dbc78;
+    color: #FFF;
+}
+.icon-info {
+    background-color: #08bfed;
+    color: #FFF;
+}
+.icon-warning {
+    background-color: #ffae00;
+    color: #FFF;
+}
+.icon-danger {
+    background-color: #cb4b57;
+    color: #FFF;
+}
+.icon-inverse {
+    background-color: #57606f;
+    color: #FFF;
+}
+
+/*ICON BORDER*/
+.icon-square-border.icon-default, .icon-rounded-border.icon-default, .icon-circle-border.icon-default {
+    border-color: #eeeeee;
+    background-color: #FFF;
+    color: #eeeeee;
+}
+.icon-square-border.icon-primary, .icon-rounded-border.icon-primary, .icon-circle-border.icon-primary {
+    border-color: #7a5ba9;
+    background-color: #FFF;
+    color: #7a5ba9;
+}
+.icon-square-border.icon-success, .icon-rounded-border.icon-success, .icon-circle-border.icon-success {
+    border-color: #0dbc78;
+    background-color: #FFF;
+    color: #0dbc78;
+}
+.icon-square-border.icon-info, .icon-rounded-border.icon-info, .icon-circle-border.icon-info {
+    border-color: #08bfed;
+    background-color: #FFF;
+    color: #08bfed;
+}
+.icon-square-border.icon-warning, .icon-rounded-border.icon-warning, .icon-circle-border.icon-warning {
+    border-color: #ffae00;
+    background-color: #FFF;
+    color: #ffae00;
+}
+.icon-square-border.icon-danger, .icon-rounded-border.icon-danger, .icon-circle-border.icon-danger {
+    border-color: #cb4b57;
+    background-color: #FFF;
+    color: #cb4b57;
+}
+.icon-square-border.icon-inverse, .icon-rounded-border.icon-inverse, .icon-circle-border.icon-inverse {
+    border-color: #57606f;
+    background-color: #FFF;
+    color: #57606f;
+}
+
+
+
+
+
+
+.label-square {
+    border-radius: 0;
+}
+
+/*LABEL BORDER*/
+.label.label-bordered {
+    background-color: #fff;
+    border: 1px solid;
+}
+.label-default.label-bordered {
+    border-color: #eeeeee;
+    color: #333;
+}
+.label-primary.label-bordered {
+    border-color: #7a5ba9;
+    color: #7a5ba9;
+}
+.label-success.label-bordered {
+    border-color: #0dbc78;
+    color: #0dbc78;
+}
+.label-info.label-bordered {
+    border-color: #08bfed;
+    color: #08bfed;
+}
+.label-warning.label-bordered {
+    border-color: #ffae00;
+    color: #ffae00;
+}
+.label-danger.label-bordered {
+    border-color: #cb4b57;
+    color: #cb4b57;
+}
+.label-inverse.label-bordered {
+    border-color: #57606f;
+    color: #57606f;
+}
+
+/*LIST ICON*/
+ul.list-icon {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+ul.list-icon li {
+    position: relative;
+    margin-bottom: 5px;
+    padding-left: 35px;
+}
+ul.list-icon li .li-icon {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    top: 2px;
+    width: 30px;
+}
+
+/*RESET FOOTER*/
+blockquote footer, blockquote small, blockquote .small {
+    background: none repeat scroll 0 0 transparent;
+    border-top: 0 solid #E6E9ED;
+    line-height: 170%;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+    text-align: inherit;
+}
+
+/*TEXT AND BACKGROUND*/
+.text-muted {
+  color: #999;
+}
+.text-primary {
+  color: #7a5ba9;
+}
+a.text-primary:hover {
+  color: #694c96;
+}
+.text-success {
+  color: #0dbc78;
+}
+a.text-success:hover {
+  color: #07a86a;
+}
+.text-info {
+  color: #08bfed;
+}
+a.text-info:hover {
+  color: #05b1dc;
+}
+.text-warning {
+  color: #ffae00;
+}
+a.text-warning:hover {
+  color: #ff9000;
+}
+.text-danger {
+  color: #cb4b57;
+}
+a.text-danger:hover {
+  color: #bb3d49;
+}
+.text-inverse {
+  color: #57606f;
+}
+a.text-inverse:hover {
+  color: #47505f;
+}
+
+/*POPOVER*/
+.popover {
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+}
+
+/*TOOLTIP*/
+.tooltip-inner {
+  border-radius: 0;
+}
+
+.btn-xs i {
+    font-size: 14px;
+}
+.btn-option i {
+    width: 18px;
+    line-height: 25px;
+}
+.table > thead > tr > th {
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    color: #FFF;
+}
+.table-avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.table.table-default thead {
+    background-color: #EFEFEF;
+}
+.table.table-default thead > tr > th {
+    border-bottom: 1px solid #dcdcdc;
+    color: #555;
+}
+
+.table.table-primary thead {
+    background-color: #7a5ba9;
+}
+.table.table-primary thead > tr > th {
+    border-bottom: 1px solid #694c96;
+}
+
+.table.table-success thead {
+    background-color: #0dbc78;
+}
+.table.table-success thead > tr > th {
+    border-bottom: 1px solid #07a86a;
+}
+
+.table.table-info thead {
+    background-color: #08bfed;
+}
+.table.table-info thead > tr > th {
+    border-bottom: 1px solid #05b1dc;
+}
+
+.table.table-warning thead {
+    background-color: #ffae00;
+}
+.table.table-warning thead > tr > th {
+    border-bottom: 1px solid #ff9000;
+}
+
+.table.table-danger thead {
+    background-color: #cb4b57;
+}
+.table.table-danger thead > tr > th {
+    border-bottom: 1px solid #bb3d49;
+}
+
+.table.table-inverse thead {
+    background-color: #57606f;
+}
+.table.table-inverse thead > tr > th {
+    border-bottom: 1px solid #47505f;
+}
+
+
+tr.active, td.active {
+    background-color: #eeeeee;
+}
+tr.success, td.success {
+    background-color: #e8fcf4;
+}
+tr.info, td.info {
+    background-color: #e9fbff;
+}
+tr.warning, td.warning {
+    background-color: #fff7e5;
+}
+tr.danger, td.danger {
+    background-color: #fff0f1;
+}
+
+/*TAB PANEL*/
+.tab-pane {
+    padding: 15px;
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid transparent;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.nav-tabs {
+    border-bottom: 1px solid #EEE;
+}
+.nav-tabs > li > a {
+    border-bottom: 0;
+    margin-right: 4px;
+}
+.nav-default li a:hover,
+.nav-primary li a:hover,
+.nav-success li a:hover,
+.nav-info li a:hover,
+.nav-warning li a:hover,
+.nav-danger li a:hover,
+.nav-inverse li a:hover {
+    opacity: 0.8;
+    border-color: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-default > li.active > a,
+.nav-default > li.active > a:hover,
+.nav-default > li.active > a:focus,
+.nav-primary > li.active > a,
+.nav-primary > li.active > a:hover,
+.nav-primary > li.active > a:focus,
+.nav-success > li.active > a,
+.nav-success > li.active > a:hover,
+.nav-success > li.active > a:focus,
+.nav-info > li.active > a,
+.nav-info > li.active > a:hover,
+.nav-info > li.active > a:focus,
+.nav-warning > li.active > a,
+.nav-warning > li.active > a:hover,
+.nav-warning > li.active > a:focus,
+.nav-danger > li.active > a,
+.nav-danger > li.active > a:hover,
+.nav-danger > li.active > a:focus,
+.nav-inverse > li.active > a,
+.nav-inverse > li.active > a:hover,
+.nav-inverse > li.active > a:focus {
+    background-color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-default > li > a {
+    background-color: #eeeeee;
+    color: #333;
+    transition: all 0.3s ease 0s;
+}
+.nav-default > li > a:hover {
+    background-color: #eeeeee;
+}
+
+.nav-primary > li > a {
+    background-color: #7a5ba9;
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+.nav-primary > li > a:hover {
+    background-color: #7a5ba9;
+}
+
+.nav-success > li > a {
+    background-color: #0dbc78;
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+.nav-success > li > a:hover {
+    background-color: #0dbc78;
+}
+
+.nav-info > li > a {
+    background-color: #08bfed;
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+.nav-info > li > a:hover {
+    background-color: #08bfed;
+}
+
+.nav-warning > li > a {
+    background-color: #ffae00;
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+.nav-warning > li > a:hover {
+    background-color: #ffae00;
+}
+
+.nav-danger > li > a {
+    background-color: #cb4b57;
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+.nav-danger > li > a:hover {
+    background-color: #cb4b57;
+}
+
+.nav-inverse > li > a {
+    background-color: #57606f;
+    color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+.nav-inverse > li > a:hover {
+    background-color: #57606f;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    border-color: transparent;
+}
+
+/*DROPDOWN RESET*/
+.dropdown-menu {
+    -webkit-box-shadow: 3px 3px 0 0px #DDD;
+    -moz-box-shadow: 3px 3px 0 0px #DDD;
+    box-shadow: 3px 3px 0 0px #DDD;
+    border: 1px solid #efefef;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 6px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    transition: all 0.3s ease 0s;
+}
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #0dbc78;
+    transition: all 0.3s ease 0s;
+}
+.dropdown-menu > .active > a {
+    color: #333;
+    background-color: #FFF;
+    transition: all 0.3s ease 0s;
+}
+.dropdown-menu > .active > a:hover {
+    background-color: #0dbc78;
+    color: #FFF;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > .active > a:focus {
+    background-color: transparent;
+    transition: all 0.3s ease 0s;
+    color: #333;
+}
+
+.btn:active, .btn.active {
+    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .125);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .125);
+}
+
+.panel.panel-compact {
+  border-radius: 0px;
+}
+.panel.panel-compact + .panel.panel-compact {
+  margin-top: 1px;
+}
+

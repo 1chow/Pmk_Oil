@@ -1,0 +1,40 @@
+body {
+	font-size: 0.5em;
+	font-size: 9px !important;
+	background-color: white;
+}
+.panel-default, .panel {
+	border-color: transparent;
+	box-shadow: 0 1px 1px transparent;
+	-webkit-box-shadow: 0 1px 1px transparent;
+}
+.invoice_report .in-total, table {
+	font-size: 9px !important;
+}
+.my-table {
+	border-collapse: collapse;
+}
+.my-table td, .my-table th {
+	border-collapse: collapse;
+	border: 1px solid #DDDDDD;
+	padding: 2px;
+	font-size: 9px !important;
+}
+#actionBar {
+	display: none !important;
+}
+table.EmpSlip {
+	page-break-inside: avoid;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+  /* ... the rest of the rules ... */
+}

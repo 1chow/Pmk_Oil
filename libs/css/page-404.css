@@ -1,0 +1,33 @@
+.head404 {
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px;
+    border: 5px solid #FFF;
+}
+.head404 h1 {
+    font-size: 100px;
+    color: #FFF;
+    font-weight: 700;
+}
+.mask4041 {
+    font-size: 26px;
+    color: #FFF;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.mask4042 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 30px;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+a.texttoHomepage {
+    font-weight: 700;
+    color: #FFF;
+}
+a:hover.texttoHomepage {
+    color: #FFF;
+}

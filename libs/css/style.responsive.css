@@ -1,0 +1,211 @@
+@media screen and (max-width: 1024px) {
+    .name {
+        display: none;
+    }
+    .glyphicons li {
+        width: 20%;
+    }
+    .thumnailImg {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sideLeft.toggle {
+        left: -240px;
+        transition: all 0.4s ease 0s;
+    }
+    .pageContent.toggle {
+        padding-left: 0;
+        transition: all 0.4s ease 0s;
+    }
+    .footer.toggle {
+        margin-left: 0;
+        transition: all 0.4s ease 0s;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .pageContent, .footer  {
+        padding-left: 0;
+        margin-left: 0;
+        transition: all 0.4s ease 0s;
+    }
+    .pageContent.toggle, .footer.toggle  {
+        padding-left: 240px;
+        transition: all 0.4s ease 0s;
+    }
+
+    .sideLeft {
+        left: -240px;
+        transition: all 0.4s ease 0s;
+    }
+    .sideLeft.toggle {
+        left: 0;
+        transition: all 0.4s ease 0s;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-toolbar {
+        display: block;
+        background-color: #fff;
+        transition: all 0.4s ease 0s;
+        margin-top: 60px;
+    }
+    .navbar-toolbar.toggle {
+        margin-left: 240px;
+        transition: all 0.4s ease 0s;
+    }
+    .pageContent {
+        padding-top: 120px;
+    }
+    .navbar-toolbar {
+        margin-right: 0;
+        transition: all 0.4s ease 0s;
+    }
+    .navbar-toolbar.toggle {
+        margin-right: -200px;
+        transition: all 0.4s ease 0s;
+    }
+    .navbar-brand {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #header.navbar > .navbar-header > .navbar-brand {
+        width: 100%;
+    }
+    .navbar-right {
+        margin-right: 0;
+        transition: all 0.4s ease 0s;
+    }
+    .navbar-right.toggle {
+        margin-right: -200px;
+        transition: all 0.4s ease 0s;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    .navbar-brand {
+        display: inline;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .topSearch, .dpNone, .dropdown-header, .blockProfile {
+        display: none !important;
+    }
+    .ddSearch, .ddtopNav {
+        display: inline;
+        float: right;
+    }
+    .ddtopNav i {
+        cursor: pointer;
+        font-size: 18px;
+        padding: 20px;
+    }
+    #main-fixed-nav {
+        width: 100%;
+    }
+    .navbar-nav {
+        margin: 0 0 0;
+        border-bottom: 1px solid #EFEFEF;
+    }
+    .icon-dinamic {
+        padding: 20px;
+        font-size: 18px;
+    }
+    .btn-collapse-sidebar-left {
+        padding: 0;
+    }
+    .pageContent.toggle, .footer.toggle {
+        margin-right: -200px;
+    }
+    .resNav {
+        display: inline;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 20px;
+        font-size: 14px;
+        background-color: #57606f;
+    }
+    .resNav i {
+        color: #FFF;
+    }
+    .navbar.toggle-left, .sideLeft.toggle-left, .pageContent.toggle-left, .footer.toggle-left {
+        margin-right: 240px;
+    }
+    .top-navRight.toggle-left {
+        margin-right: 0px !important;
+    }
+    .txttitlePop, .name {
+        display: inline;
+        padding-left: 15px;
+    }
+    .nav .open > a, .nav .open > a:hover, .nav .open > a:focus,
+    .navbar-right > li > a, .navbar-right > li > a:hover, .navbar-right > li > a:focus {
+        border-right: 1px solid #FFF;
+    }
+    #header.navbar > .navbar-toolbar > .navbar-nav > li > a {
+        height: 40px;
+        line-height: 20px;
+        padding: 10px 0 15px 0;
+        border-bottom: 1px solid #EFEFEF;
+        display: block;
+    }
+    .profileFa {
+        display: inline-block;
+    }
+    .profileFa i {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .listProfile {
+        width: 100%;
+    }
+    .thumnailImg {
+        width: 110px;
+        height: 110px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .glyphicons li {
+        width: 100%;
+    }
+    .nav-tabs > li {
+        width: 100%;
+        display: block;
+    }
+    .nav-tabs > li > a {
+        margin-right: 0;
+        margin-bottom: -2px;
+    }
+    .title-body h2 small {
+        display: block;
+        padding-top: 10px;
+    }
+    .boxMobile {
+        display: block;
+        width: 100%;
+    }
+    .form.boxsign, .boxgrid, .linegrid {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .thumnailImg {
+        width: 50px;
+        height: 50px;
+        margin-right: inherit;
+    }
+}
